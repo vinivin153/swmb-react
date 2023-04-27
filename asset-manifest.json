@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/swmb-react/static/js/main.ad6eafae.js",
+    "main.js": "/swmb-react/static/js/main.e9a305a2.js",
     "index.html": "/swmb-react/index.html",
-    "main.ad6eafae.js.map": "/swmb-react/static/js/main.ad6eafae.js.map"
+    "main.e9a305a2.js.map": "/swmb-react/static/js/main.e9a305a2.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad6eafae.js"
+    "static/js/main.e9a305a2.js"
   ]
 }
