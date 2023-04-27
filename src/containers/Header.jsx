@@ -1,5 +1,6 @@
 import swmb from 'assets/Images/swmb.png';
 import * as S from './Header.style.js';
+import { Link } from 'react-router-dom';
 
 const nav_list = [
   {
@@ -23,9 +24,11 @@ const nav_list = [
 const Header = () => {
   return (
     <S.Header>
-      <S.HeaderLogo>
-        <img src={swmb} alt="Logo"></img>
-      </S.HeaderLogo>
+      <Link to="/home">
+        <S.HeaderLogo>
+          <img src={swmb} alt="Logo"></img>
+        </S.HeaderLogo>
+      </Link>
       <S.HeaderMenu>
         <S.HeaderMenuList>
           {nav_list.map((value) => {
