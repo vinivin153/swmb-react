@@ -31,7 +31,10 @@ button {
   background: none;
 }
 
-* {font-family: 'Noto Sans KR';}
+* {
+  font-family: 'Noto Sans KR';
+  box-sizing: border-box;
+}
 `;
 
 export default GlobalStyle;
